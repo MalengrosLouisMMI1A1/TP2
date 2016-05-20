@@ -1,13 +1,20 @@
+body{
+    background:#2c3e50;
+}
+*{
+    box-sizing: border-box;
+}
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+    margin: 0 auto;
+    width:960px;
 }
 
 #header
 {
-	background: #ccc;
+	background: #ecf0f1;
 	padding: 20px;
+	color:#333;
 }
 
 #header h1 { margin: 0; }
@@ -47,22 +54,15 @@
 {
 	clear: left;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	opacity: 0.83;
+	margin:20px 0;
+		background:#34495e;
+	color:#ecf0f1;
 }
 
 #edito h2
 {
-	color: #000;
+    color: #FFF;
+    font-style:bold;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -70,26 +70,21 @@
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 49%;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	opacity: 0.83;
+	margin-bottom: 15px;
+	background:#34495e;
+	color:#ecf0f1;
 }
-
+#news:nth-child(2n){
+    margin-left:15px;
+}
 #footer
 {
 	clear: both;
-	background: #ccc;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	background: #ecf0f1;
+	color:#333;
 }
